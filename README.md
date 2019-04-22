@@ -22,7 +22,6 @@ instructions in the BATS reference link below.
 
 ## Walkthroughs
 * [Command line setup](docs/command_line_walkthrough.md)
-* [PyCharm setup](docs/pycharm_walkthrough.md)
 
 ## References
 * [BATS](https://github.com/sstephenson/bats)
