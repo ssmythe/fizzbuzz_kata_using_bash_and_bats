@@ -32,3 +32,28 @@ Once those files are in place, you should be able to use:
 https://gitpod.io/#YOUR_REPO_URL_HERE
 
 ...to start up the session.
+
+# Tip: Enable Auto Save
+
+Navigate to File > Auto Save (and make sure it's checked)
+
+You'll notice a directory structure created because of this:
+.theia/settings.json
+
+settings contains:
+```json
+{
+    "editor.autoSave": "on"
+}
+```
+
+# Tip: use watch to auto run your tests
+
+In the command line, just type
+```bash
+watch bats --tap .
+```
+
+To enable auto run of your BATS tests every time a file changes.
+
+To exit watch, just use ctrl-C.
