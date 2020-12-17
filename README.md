@@ -22,6 +22,7 @@ instructions in the BATS reference link below.
 
 ## Walkthroughs
 * [Command line setup](docs/command_line_walkthrough.md)
+* [gitpod setup](docs/gitpod_setup.md)
 
 ## References
 * [BATS](https://github.com/sstephenson/bats)
